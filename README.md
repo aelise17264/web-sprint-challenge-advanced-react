@@ -29,14 +29,45 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain how to build stateful class components.
+class components should be set up on a constructor function
+extend the Base React class from the react library, this gives us use of new functionalities 
+class components will hold our state
+render the return so that our classes will work and react will pipe through our code to the DOM in order to return DOM elements
+example:
+class App extends React.Component{
+
+  render(){
+    return(
+      <div className='App'>
+      <h1>Web Sprint Challenge Advanced React</h1>
+    )
+  }
+}
 
 2. Describe the different phases of the component lifecycle.
-
 3. Demonstrate an understanding of class component lifecycle methods.
+1) Mounting - birth 
+constructor function is called and state data is initialized
+we can receive props & place them on our component as state
+render is invoked and our JSX elements are transformed into DOM elements
+after render is called componentDidMount will be invoked to fetch initial data
+2) Updating - growth
+any new props received from parents will trigger updates to the children
+any changes to our state need to go through setState, setState will call a render method by default
+componentDIdUpdate is invoked to fetch our changes
+3) Unmounting - death
+componentwillUnmount() is invoked
+we destroy eventlisteners stuck on the DOM
+any mark up that doesn't need to stay on the DOM once the component dies will be destroyed once its usefullness has run its course
 
 4. Define stateful logic.
+stateful logic is any logic that is built into a component, this can be used & reused through custom hooks which helps us to keep our code DRY
 
 5. Describe how to test a React component with React Testing Library.
+we follow the 3 A's to test functionality with React Testing Library: Arrange, Act & Assert
+  Arrange: we render the file we wish to test
+  Act: we call the elements we wish to test by using different get, find & query calls
+  Assert: we run a test of how we expect the element to be (how it functions, how it looks to the user, how the user can interact with it, etc)
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
