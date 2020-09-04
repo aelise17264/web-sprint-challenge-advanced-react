@@ -25,7 +25,7 @@ componentDidMount(){
 
   /*********  DON'T CHANGE ANYTHING IN THE RENDER FUNCTION *********/
   render() {
-    console.log('rendering', this.state.plants.plantsData)
+    // console.log('rendering', this.state.plants.plantsData)
     return (
       <main className="plant-list">
         {this.state?.plants?.map((plant) => (
