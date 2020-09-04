@@ -5,10 +5,16 @@ import {useState} from 'react'
 export const useForm = (key, initialValue = '') => {
     const [value, setValue] = useLocalStorage(key, initialValue)
 
-    const handelChanges = updateValue => {
+    const handleChanges = updateValue => {
         setValue(updateValue)
     }
+    const [showSuccessMessage, setShowSuccessMessage] = useState(false);
 
-    return[value, setValue, handelChanges]
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        setShowSuccessMessage(true);
+      };
+
+    return[value, showSuccessMessage, handleChanges, handleSubmit]
 
  };
