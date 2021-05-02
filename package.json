@@ -1,10 +1,13 @@
 {
+  "homepage": "https://aelise17264.github.io/web-sprint-challenge-advanced-react/tree/anna-brander",
   "name": "sprint-challenge-advanced-react",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
