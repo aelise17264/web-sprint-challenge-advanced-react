@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/web-sprint-challenge-advanced-react/tree/anna-brander/static/css/main.507c6ee7.chunk.css",
+    "main.js": "/web-sprint-challenge-advanced-react/tree/anna-brander/static/js/main.75165e4f.chunk.js",
+    "main.js.map": "/web-sprint-challenge-advanced-react/tree/anna-brander/static/js/main.75165e4f.chunk.js.map",
+    "runtime-main.js": "/web-sprint-challenge-advanced-react/tree/anna-brander/static/js/runtime-main.ab3df205.js",
+    "runtime-main.js.map": "/web-sprint-challenge-advanced-react/tree/anna-brander/static/js/runtime-main.ab3df205.js.map",
+    "static/js/2.e88083ae.chunk.js": "/web-sprint-challenge-advanced-react/tree/anna-brander/static/js/2.e88083ae.chunk.js",
+    "static/js/2.e88083ae.chunk.js.map": "/web-sprint-challenge-advanced-react/tree/anna-brander/static/js/2.e88083ae.chunk.js.map",
+    "index.html": "/web-sprint-challenge-advanced-react/tree/anna-brander/index.html",
+    "precache-manifest.6ad7746d517fd582d4b6614d5b71f511.js": "/web-sprint-challenge-advanced-react/tree/anna-brander/precache-manifest.6ad7746d517fd582d4b6614d5b71f511.js",
+    "service-worker.js": "/web-sprint-challenge-advanced-react/tree/anna-brander/service-worker.js",
+    "static/css/main.507c6ee7.chunk.css.map": "/web-sprint-challenge-advanced-react/tree/anna-brander/static/css/main.507c6ee7.chunk.css.map",
+    "static/js/2.e88083ae.chunk.js.LICENSE.txt": "/web-sprint-challenge-advanced-react/tree/anna-brander/static/js/2.e88083ae.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab3df205.js",
+    "static/js/2.e88083ae.chunk.js",
+    "static/css/main.507c6ee7.chunk.css",
+    "static/js/main.75165e4f.chunk.js"
+  ]
+}
